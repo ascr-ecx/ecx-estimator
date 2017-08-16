@@ -270,7 +270,7 @@ int main(int ac, char* av[])
         cout << workDistribution << ",";
         cout << totalTime/3600 << ",";
         cout << avgPower << ",";
-        cout << totalEnergy << ",";
+        cout << totalEnergy/1000/3.6 << ",";
         cout << storage/1024 << endl;
       }
 
